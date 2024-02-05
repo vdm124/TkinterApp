@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(255, 255, 255, 0.1)),
+    url('https://img.freepik.com/premium-photo/mountains-fall-are-beautiful_849761-475.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content,
+.content__main-temp,
+.content__sun,
+.content__sun__sunrise,
+.content__sun__sunset,
+.content__addition__main-wrap,
+.content__addition__second-wrap,
+.content__addition__main-wrap__header,
+.content__addition__second-wrap,
+.content__addition__second-wrap__img,
+.content__addition__second-wrap__text,
+.content__addition__second-wrap__text-add {
+    display: flex;
+}
+
+.content__main-temp__img img {
+    min-width: 60px;
+    max-width: 100px;
+}
+
+.content__main-temp__text p {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.content__main-temp__img,
+.content__main-temp__text {
+    padding: 10px;
+}
+
+.content {
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+.content__sun__sunrise,
+.content__sun__sunset {
+    padding: 10px 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content__sun__sunrise__wrap,
+.content__sun__sunset__wrap {
+    align-items:center;
+}
+
+.content__sun__sunrise__ico img,
+.content__sun__sunset__ico img {
+    width: 25px;
+    height: 100%;
+}
+
+.content__sun__sunrise__description span,
+.content__sun__sunset__description span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
